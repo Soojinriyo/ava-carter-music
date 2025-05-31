@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ava Carter | Music Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><i class="fa-solid fa-music"></i> Ava Carter</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#music">Music</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Feel the <span class="highlight">Beat</span>.<br>Live the <span class="highlight">Music</span>.</h1>
+      <p class="subtitle">North America's Rising Pop Star</p>
+      <a href="#music" class="cta-btn">Listen Now <i class="fa-solid fa-play"></i></a>
+    </div>
+    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Ava Carter" class="hero-img">
+  </section>
+  <section class="about" id="about">
+    <h2>About Ava</h2>
+    <p>Ava Carter is a trailblazing pop musician redefining the sound of a generation. With chart-topping singles and a magnetic stage presence, she fuses electronic, indie, and R&B into a signature style. Based in LA, Ava is known for her empowering lyrics and electrifying live shows.</p>
+  </section>
+  <section class="music" id="music">
+    <h2>Featured Music</h2>
+    <div class="music-list">
+      <div class="music-card">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=facearea&w=400&h=400" alt="Album cover">
+        <div>
+          <h3>Starlight</h3>
+          <audio controls src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+        </div>
+      </div>
+      <div class="music-card">
+        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=facearea&w=400&h=400" alt="Album cover">
+        <div>
+          <h3>Electric Heart</h3>
+          <audio controls src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"></audio>
+        </div>
+      </div>
+      <div class="music-card">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=facearea&w=400&h=400" alt="Album cover">
+        <div>
+          <h3>Runaway</h3>
+          <audio controls src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"></audio>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallery" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=facearea&w=400&h=400" alt="Live Show">
+      <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=facearea&w=400&h=400" alt="Studio">
+      <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=facearea&w=400&h=400" alt="On Stage">
+      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=facearea&w=400&h=400" alt="Portrait">
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send <i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+    <div class="socials">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-spotify"></i></a>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Ava Carter. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
